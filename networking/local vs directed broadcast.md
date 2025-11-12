@@ -59,4 +59,24 @@ Routers **usually block directed broadcasts by default** (to prevent **smurf att
 
 ## 🧭 Diagram: Local vs Directed Broadcast
 
++-------------------------------------------------------------+
+| Local Network: 192.168.1.0/24                               |
+|                                                             |
+|  [PC1]----[Switch]----[Router]                              |
+|    |                      |                                 |
+|    |----> Local Broadcast (255.255.255.255) ----> All PCs   |
+|                                                             |
++-------------------------------------------------------------+
 
+                             |
+                             | (Router may block broadcast)
+                             v
+
++-------------------------------------------------------------+
+| Remote Network: 192.168.2.0/24                              |
+|                                                             |
+|   [PC2]----[Switch]----[Hosts...]                           |
+|     ^                                                      |
+|     |---- Directed Broadcast (192.168.2.255) ---- Router ---|
+|                                                             |
++-------------------------------------------------------------+
