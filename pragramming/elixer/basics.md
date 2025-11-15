@@ -20,3 +20,48 @@ To generate a project run.
 mix new <project>
 ````
 
+## hex
+Hex is Elixir's package management tool. Just like npm or pip.
+You can go to there [website](https://hex.pm/) for packages and just copy the right on one into you'r **_mix.esx_** "config".
+in the deps section, between the []. But first youl need to install **hex**, by running this command.
+
+```bash
+mix local.hex
+```
+
+Now to install the dependentie's youl need to run.
+```bash
+mix deps.get
+```
+
+# the language
+
+Now we will start taking about types i think... Wow (this is my first time to).
+
+## variables and others
+In elixir we call what we call variable declarations in other languages, bindings in Elixir.
+
+Just like this.
+```elixir
+x = 5
+```
+
+Dont be fooled by the `=`. Its actualy something else we will cover over.
+
+### "cosntants"
+we cant do it like in javascript.
+```javascript
+cosnt x = 5;
+```
+
+But instead we have a "workaround". By cowing in to the module section of our Elixir program and defing are sudo const with.
+```elixir
+@x 5
+```
+These are called module attributes.
+
+### atoms
+
+
+
+### stings
