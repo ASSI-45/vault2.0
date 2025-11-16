@@ -60,8 +60,38 @@ But instead we have a "workaround". By cowing in to the module section of our El
 ```
 These are called module attributes.
 
+### strings
+You define a string by using double quotes in your program.
+```elixir
+"hello"
+````
+
+Use these when getting a value from the user.
+
 ### atoms
+Atoms are like strings but constant. These are usefull for when youll be needing a small or any type of world list through out your application. Think of lexer.
 
+**atom**
+```elixir
+:hello
+````
 
+The value itself is the same as a string.
 
-### stings
+**_Note!:_** That a atom for static values is more beneficial for preformance in Elixir. Because the language just needs to check the memory location instead of each charachter in the string.
+
+If you have a space in your atom do this.
+```elixir
+:"hello world"
+```
+## controll flow
+
+### the if and else statement
+
+```elixer
+if status === :gold do
+      IO.puts("Welcome to the cool lounge, #{name}")
+    else
+      IO.puts("Your not in the cool lounge, #{name}")
+```
+
