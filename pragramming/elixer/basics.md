@@ -66,9 +66,24 @@ You define a string by using double quotes in your program.
 "hello"
 ````
 
+You can use escape charcter like \n or \t in a tring. 
+
+**_Note!_**: That `IO.puts()` already puts a new character at the end of the line.
+
+You can also use unicode charcters in side of a string or in iex. By using a `?` character. This will return its code point.
+
+```elixier
+?a
+```
+Will return `97`.
+
+You can use code [Code points](https://codepoints.net/?lang=en) website to see the hex or decimal value of a specif character.
+
+
 Use these when getting a value from the user.
 
 ### atoms
+
 Atoms are like strings but constant. These are usefull for when youll be needing a small or any type of world list through out your application. Think of lexer.
 
 **atom**
