@@ -99,6 +99,56 @@ If you have a space in your atom do this.
 ```elixir
 :"hello world"
 ```
+
+### compount types
+These are types that consist of basic types. To make more complex types.
+
+#### tuples
+A tuple may contain elements of different types, which are stored contiguously in memory. Accessing any element takes constant time, but modifying a tuple, which produces a shallow copy, takes linear time. Tuples are good for reading data while lists are better for traversals.
+
+```elixer
+price = {1, 2, 5}
+```
+
+**_Note!_**: You can also destructure them.
+
+#### lists
+Lists are collections of values which may include multiple types; lists may also include non-unique values.
+
+```elixir
+[3.14, :pie, "Apple"]
+```
+
+Its faster to **prepent** to a list then to **append** to list
+
+#### maps
+Maps store **_key value pairs_**. Usefull for lookup tables. You define one as such.
+
+```elixir
+memberships = %{
+  Premium: 30,
+  Standerd: 20,
+  Cheap: 10,
+}
+```
+
+You can acces them as such.
+
+```elixir
+memberships.Premium  # map_name.map_element
+```
+
+#### structs
+Structs are like maps and build on top of them. But bring
+default values and pre-compile checks.
+
+```elixir
+defmodule User do
+  defstruct name: "John", age: 27
+end
+```
+
+
 ## controll flow
 
 ### the if and else statement
