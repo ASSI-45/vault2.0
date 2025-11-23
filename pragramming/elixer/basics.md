@@ -158,5 +158,6 @@ if status === :gold do
       IO.puts("Welcome to the cool lounge, #{name}")
     else
       IO.puts("Your not in the cool lounge, #{name}")
+end 
 ```
 
