@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "6c11415d15958ab0",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9eebf292e26f538",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93fcd23086aa9847",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/utility/Netcat.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Netcat"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f4707c061dc72cc2",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6742d24037acfdf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a93d355f1d9ac94",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a1bf711159dc7388",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "619f10934c17926f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 361.5
+  },
+  "right": {
+    "id": "f160bfac0acff939",
+    "type": "split",
+    "children": [
+      {
+        "id": "39c0379ea3723d06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02305e54e2685e91",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pragramming/bash/bash pro shop advanced.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for bash pro shop advanced"
+            }
+          },
+          {
+            "id": "0a1c44200e07e09f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/2. pattern matching.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2. pattern matching"
+            }
+          },
+          {
+            "id": "53117c91c0605471",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2bf65a4215a1840d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/2. pattern matching.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2. pattern matching"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "93fcd23086aa9847",
+  "lastOpenFiles": [
+    "pragramming/python/library/socket.md",
+    "linux/utility/Netcat.md",
+    "pragramming/python/library/socketserver.md",
+    "pictures/2025-12-12_09-23-26_5xDec.png",
+    "pragramming/bash/bash pro shop advanced.md",
+    "pragramming/python/library",
+    "pragramming/python",
+    "The.md",
+    "Untitled.md",
+    "pragramming/bash/Bash pro shop.md",
+    "pictures/2025-12-10_11-27-55_3xDec.png",
+    "pictures/2025-12-10_11-24-32_3xDec.png",
+    "pictures/2025-12-10_11-19-26_3xDec.png",
+    "pictures/2025-12-10_10-23-54_3xDec.png",
+    "pictures/2025-12-10_10-23-45_3xDec.png",
+    "2025-12-10_10-23-54_3xDec.png",
+    "2025-12-10_10-23-45_3xDec.png",
+    "pictures/2025-12-10_10-20-07_3xDec.png",
+    "2025-12-10_10-20-07_3xDec.png",
+    "pictures",
+    "networking/packets.md",
+    "pragramming/bash",
+    "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/2. pattern matching.md",
+    "pragramming/elixer/basics.md",
+    "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming",
+    "pragramming/elixer/programming elixir 1.6"
+  ]
+}
