@@ -25,7 +25,6 @@ This is a **_common_** combo for **Netcat**.
 
 # -a — Version-Specific Behavior
 - --
-
 -a is not a universal netcat flag, and its meaning differs by implementation.
 
 In OpenBSD netcat (most modern Linux systems):

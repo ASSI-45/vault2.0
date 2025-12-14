@@ -26,7 +26,7 @@ In the middle is the round-trip section, where data is exchanged between the cli
 At the bottom, the client and server close their respective sockets
 [source](https://realpython.com/python-sockets/)
 
-# basic server
+# basic echo server
 -- -
 Its nothing glamorous but it well accept a connection from a client. At this point is won't serve no static html. Just accept connections.
 
