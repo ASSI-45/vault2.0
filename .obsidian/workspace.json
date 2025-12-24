@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/4. elixir basics part 2.md",
+                "file": "pragramming/avr/c/packages.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. elixir basics part 2"
+              "title": "packages"
             }
           }
         ]
@@ -172,8 +172,11 @@
   },
   "active": "93fcd23086aa9847",
   "lastOpenFiles": [
-    "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/4. elixir basics.md",
     "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/4. elixir basics part 2.md",
+    "pragramming/avr/c/packages.md",
+    "pragramming/avr/c",
+    "pragramming/avr",
+    "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/4. elixir basics.md",
     "pictures/2025-12-23_08-27-58_2xDec.png",
     "Value types.md",
     "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/1. pattern matching.md",
