@@ -63,6 +63,7 @@ clean:
 
 ```
 
+**_Warning:_** This make file only works with a single `main.c` fille.
 # usage
 ```bash
 make        # compile
