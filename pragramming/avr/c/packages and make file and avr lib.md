@@ -4,7 +4,12 @@ The packages for debian.
 sudo apt install -y avr-libc avrdude binutils-avr gcc-avr
 ```
 
-Here is a common make file chatgpt wrote for me.
+Here is a common make file chatgpt wrote for me. But first find the tty port thingy.
+
+```bash
+ls /dev/ | grep ACM
+```
+
 ```c
 # ===== Project settings =====
 PROJECT = main
@@ -70,4 +75,18 @@ make clean  # remove build files
 project/
 ├── Makefile
 └── main.c
+```
+
+# lib
+```c
+#include <avr/io.h>
+
+#define SAFE_EXIT 0
+#define UNSAFE_EXIT 1
+
+int main(void)
+{
+	
+	return SAFE_EXIT;
+}
 ```
