@@ -78,7 +78,7 @@ project/
 └── main.c
 ```
 
-# lib
+# lib and boiler plate
 ```c
 #include <avr/io.h>
 
@@ -90,4 +90,17 @@ int main(void)
 	
 	return SAFE_EXIT;
 }
+```
+
+# .clangd
+This file should me included to get nvim-lsp working
+```c
+CompileFlags:
+  Add:
+    - --target=avr
+    - -mmcu=atmega328p
+    - -I/usr/lib/avr/include
+    - -I/usr/avr/include
+    - -DF_CPU=16000000UL
+
 ```
