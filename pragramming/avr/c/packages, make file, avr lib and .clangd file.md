@@ -98,7 +98,7 @@ This file should me included to get nvim-lsp working
 CompileFlags:
   Add:
     - --target=avr
-    - -mmcu=atmega328p
+    - -mmcu=atmega2560
     - -I/usr/lib/avr/include
     - -I/usr/avr/include
     - -DF_CPU=16000000UL
