@@ -6,7 +6,7 @@ In this page we'll discuss how to write to a pin then on how to write to an pin 
 
 # quickly explained section
 -- -
-So on bare-metal AVR without the the arduino library we'll need to be setting the pin-outs on the board it self. First of all, well need to set the **DDR** -> data direction register. Each port has one.
+So on bare-metal AVR without the the Arduino library we'll need to be setting the pin-outs on the board it self. First of all, well need to set the **DDR** -> data direction register. Each port has one.
 
 What is an port? You may ask.
 
@@ -16,11 +16,36 @@ So quickly, each pin belongs to an port and there usually as far is i know multi
 
 **_Note!_**: You can find the **DDR**x or _data direction register_ data in the "_Ports as General Digital I/O_" section on the official Atmel [datasheet](https://ww1.microchip.com/downloads/en/devicedoc/atmel-2549-8-bit-avr-microcontroller-atmega640-1280-1281-2560-2561_datasheet.pdf).
 
+Before you we move on you should read [[packages, make file, avr lib and .clangd file]]. To setup your enviroment.
 ## configuring as output
 -- -
+I'll show you the code first, then explain.
+```c
+#include <avr/io.h>
 
+int main(void)
+{
+	DDRB |= (1 << PB2); // pin 24 on arduino named PB2
+}
+```
+
+So in layman's terms we set `DDRB` or _data direction register b_ equal to `DDRB` or 1 shifted by the pin. This will set pin `PB2` or `pin24` on the Arduino Mega to a 1 witch is the **write** value.
 ### writing
+This code will set `PB2` or `pin24` to **HIGH** -> 1.
+```c
+#include <avr/io.h>
 
+int main(void)
+{
+	DDRB |= (1 << PB2); // pin 24 on arduino named PB2
+	// --
+	PORTA |= (1 << PB2) // write high on the the an register of the port A array
+}
+```
+
+**_Note!:_** They might no be actual arrays in reality but think of them like this.
+
+So this code will of course shift `1` by `PB2` on the `PORTA`, witch will make it HIGH. You may ask, why are they named **PORTA** and **PB2**? well its to make the code portable across different **MCU**'s
 ## configuring as input
 -- -
 
