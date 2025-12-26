@@ -29,7 +29,7 @@ int main(void)
 }
 ```
 
-So in layman's terms we set `DDRB` or _data direction register b_ equal to `DDRB` or 1 shifted by the pin. This will set pin `PB2` or `pin24` on the Arduino Mega to a 1 witch is the **write** value.
+So in layman's terms we set `DDRB` or _data direction register b_ equal to `DDRB` or 1 shifted by the pin. This will set pin `PB2` or `pin24` on the Arduino Mega to a 1 witch is the **write** value. On the _data direction register_.
 ### writing
 This code will set `PB2` or `pin24` to **HIGH** -> 1.
 ```c
@@ -39,13 +39,40 @@ int main(void)
 {
 	DDRB |= (1 << PB2); // pin 24 on arduino named PB2
 	// --
-	PORTA |= (1 << PB2) // write high on the the an register of the port A array
+	PORTA |= (1 << PB2); // write high on the the an register of the port A array
 }
 ```
 
 **_Note!:_** They might no be actual arrays in reality but think of them like this.
 
-So this code will of course shift `1` by `PB2` on the `PORTA`, witch will make it HIGH. You may ask, why are they named **PORTA** and **PB2**? well its to make the code portable across different **MCU**'s
+So this code will of course shift `1` by `PB2` on the `PORTA` or `PORTA`, witch will make it HIGH. You may ask, why are they named **PORTA** and **PB2**? well its to make the code portable across different **MCU**'s. The compiler will do the rest.
+
+And now how to set a bit to 0.
+```c
+#include <avr/io.h>
+
+int main(void)
+{
+	DDRB |= (1 << PB2); // pin 24 on arduino named PB2
+	// --
+	PORTA |= ~(1 << PB2); // write low on the the an register of the port A array
+}
+```
+
+So this will translate to, The inverse of 1 shifted by `PB2` on PORTA or PORTA. so...
+```c 
+#include <avr/io.h>
+
+int main(void)
+{
+	DDRB |= (1 << PB2); // pin 24 on arduino named PB2
+	// --
+	PORTA |= ~(1 << PB2); // write low on the the an register of the port A array
+	PORTA = PORTA | ~(1 << PB3); // the same as the line above
+}
+```
+
+Will do the same thing. On `PB2` and `PB3`.
 ## configuring as input
 -- -
 
