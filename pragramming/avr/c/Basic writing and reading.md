@@ -75,5 +75,14 @@ int main(void)
 Will do the same thing. On `PB2` and `PB3`.
 ## configuring as input
 -- -
+The following code will configure `pin26` or better said `PA4` on the mega as in input.
+```c
+#include <avr/io.h>
 
+int main(void) {
+	DDRA &= ~(1 << PA4);
+}
+```
+
+The Atmel 2560 has build in pull resistors, but using these will change how you read from the pin. So in the folewing example will set the internal pull-resistor to on.
 ### reading
