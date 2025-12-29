@@ -84,5 +84,34 @@ int main(void) {
 }
 ```
 
-The Atmel 2560 has build in pull resistors, but using these will change how you read from the pin. So in the folewing example will set the internal pull-resistor to on.
+The Atmel 2560 has build in pull resistors, but using these will change how you read from the pin. So in the follewing example will set the internal pull-resistor to **off**.
+
+```c
+#include <avr/io.h>
+
+int main(void) {
+	DDRA &= ~(1 << PA4); // turn on read mode on PA
+	PORTA &= ~(1 << PA4); // turn of pull up resistor
+}
+```
+
+And vice versa the **on** code.
+
+```c
+#include <avr/io.h>
+
+int main(void) {
+	DDRA &= ~(1 << PA4); // turn on read mode on PA
+	PORTA &= (1 << PA4); // turn on pull resistor
+}
+```
 ### reading
+The following `if` statement will read from pin 26 on the Arduino mega.
+
+```c
+if (PINA & (1 << PA4)) { // read from PA4
+	// do something in here
+}
+```
+
+**_Note!:_** You can set a alias for a pin using `#define`.
