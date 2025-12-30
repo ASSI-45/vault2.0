@@ -1,5 +1,5 @@
 -- -
-In this page we'll discuss how to write to a pin then on how to write to an pin in c. These are the basics of understanding of how to use 8-bit AVR. I'll be using an arduino mega(Atmel 2560).
+In this page we'll discuss how to write to a pin then on how to write to an pin in c. These are the basics of understanding of how to use 8-bit AVR. I'll be using an arduino mega(Atmega 2560).
 
 + [[#configuring as output]]
 + [[#configuring as input]]
@@ -14,7 +14,7 @@ Well its this finicky thing on the chip its self. Each I/O _pin_ belongs to **po
 
 So quickly, each pin belongs to an port and there usually as far is i know multiple ports on an Atmel IC. Each port stores values corresponding to each pin. And as you can maybe guess the value on each data segment of that *port array*. Will depict if the pin is an **output** or an **input**. A 1 means _output_ and a 0 is an _input_.
 
-**_Note!_**: You can find the **DDR**x or _data direction register_ data in the "_Ports as General Digital I/O_" section on the official Atmel [datasheet](https://ww1.microchip.com/downloads/en/devicedoc/atmel-2549-8-bit-avr-microcontroller-atmega640-1280-1281-2560-2561_datasheet.pdf).
+**_Note!_**: You can find the **DDR**x or _data direction register_ data in the "_Ports as General Digital I/O_" section on the official Atmega [datasheet](https://ww1.microchip.com/downloads/en/devicedoc/atmel-2549-8-bit-avr-microcontroller-atmega640-1280-1281-2560-2561_datasheet.pdf).
 
 Before you we move on you should read [[packages, make file, avr lib and .clangd file]]. To setup your enviroment.
 ## configuring as output
@@ -75,7 +75,7 @@ int main(void)
 Will do the same thing. On `PB2` and `PB3`.
 ## configuring as input
 -- -
-The following code will configure `pin26` or better said `PA4` on the mega as in input.
+The following code will configure `pin26` or better said `PA4` on the Arduino mega as in input.
 ```c
 #include <avr/io.h>
 
@@ -84,7 +84,7 @@ int main(void) {
 }
 ```
 
-The Atmel 2560 has build in pull resistors, but using these will change how you read from the pin. So in the follewing example will set the internal pull-resistor to **off**.
+The Atmega 2560 has build in pull resistors, but using these will change how you read from the pin. So in the follewing example will set the internal pull-resistor to **off**.
 
 ```c
 #include <avr/io.h>
