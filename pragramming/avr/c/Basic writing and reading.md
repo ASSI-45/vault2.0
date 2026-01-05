@@ -39,7 +39,7 @@ int main(void)
 {
 	DDRB |= (1 << PB2); // pin 24 on arduino named PB2
 	// --
-	PORTA |= (1 << PB2); // write high on the the an register of the port A array
+	PORTB |= (1 << PB2); // write high on the the an register of the port A array
 }
 ```
 
