@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Level 0 - notes.md",
+                "file": "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/5. Anonymous Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Level 0 - notes"
+              "title": "5. Anonymous Functions"
             }
           }
         ],
@@ -187,8 +187,8 @@
   },
   "active": "f5ef8ecd0dc840cf",
   "lastOpenFiles": [
-    "pragramming/avr/c/Basic writing and reading.md",
     "Level 0 - notes.md",
+    "pragramming/avr/c/Basic writing and reading.md",
     "pragramming/c/books/modern C 3rd edition",
     "pragramming/c/books",
     "pragramming/c",
