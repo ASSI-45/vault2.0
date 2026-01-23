@@ -15,6 +15,11 @@ mix phx.new forum --database sqlite3
 
 **_Note!:_** You can change the database to witch ever database your using.
 
+## Starting a Phoenix server
+-- -
+```bash
+mix phx.server
+```
 ## Project Structure
 -- -
 The hidden directories don't need tinkering, That's why there hidden in the first place. Such are these.
@@ -46,7 +51,7 @@ The controller will get an **GET** request, after witch the **_Controller_** is 
 
 ## Router
 -- -
-The **Router** file is located under `/lib/<app>/<app>_web/router.ex`. This is most defiantly the **Router** file. This file tells the app with **routes** exist.
+The **Router** file is located under `/lib/<app>/<app>_web/router.ex`. This is most defiantly the **Router** file. This file tells the app with **routes** exist.k
 # View
 -- -
 
