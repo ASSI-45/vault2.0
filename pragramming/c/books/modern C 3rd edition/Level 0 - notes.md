@@ -60,4 +60,22 @@ double C[] = [0] = 6, [3] = 1, ; // is valid code
 + `nullptr` will make the pointer `null`.
 + always initialize pointers.
 - [ ] what is an `enum`
-- 
+#### how to write an struct
+```c
+struct tm today {
+	.tm_year = 2026,
+	.tm_month = 01,
+	.tm_day = 24
+}
+```
+
+- structures cannot be compared with == or !=
+- structure layout is important design decision
+- there can be padding after struct member
+- no padding of the beginning of a structure
+- identifier names terminating with `_t` are reserved
+### summary chapter 6
+- Arrays combine several types of the same type in to an object
+- Pointers either refer to other objects, are null, or are invalid
+- Structures combine values of different base types in to one object
+- `typedef` provides new names for existing types
