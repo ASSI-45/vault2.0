@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pragramming/c/std libs/stdio/How to loop over the context of a file.md",
+                "file": "pragramming/c/std libs/stdio/Get file size.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to loop over the context of a file"
+              "title": "Get file size"
             }
           }
         ]
@@ -172,8 +172,12 @@
   },
   "active": "896347d5181676b7",
   "lastOpenFiles": [
+    "pragramming/c/std libs/stdio/How to loop over the contents of a file.md",
+    "pragramming/c/std libs/stdio/Get file size.md",
+    "pragramming/c/books/modern C 3rd edition/level 2 - notes.md",
+    "pragramming/c/books/modern C 3rd edition/level 1 - notes.md",
     "pragramming/c/books/modern C 3rd edition/Level 0 - notes.md",
-    "pragramming/c/std libs/stdio/How to loop over the context of a file.md",
+    "pragramming/c/books/modern C 3rd edition/Untitled",
     "pragramming/c/std libs/stdio",
     "pragramming/c/std libs",
     "pragramming/elixer/Phoenix/Getting started.md",
@@ -198,7 +202,6 @@
     "pragramming/python/library/socketserver.md",
     "pictures/2025-12-12_09-23-26_5xDec.png",
     "pragramming/bash/bash pro shop advanced.md",
-    "pragramming/python/library",
     "The.md",
     "pragramming/bash/Bash pro shop.md",
     "pictures/2025-12-10_11-27-55_3xDec.png",
