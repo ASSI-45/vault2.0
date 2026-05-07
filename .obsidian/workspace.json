@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "Get file size"
             }
+          },
+          {
+            "id": "32a5b7fd4d50c0b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pragramming/c-sharp/basics/creating and running a dotnet app.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "creating and running a dotnet app"
+            }
+          },
+          {
+            "id": "91ad4fcc1d99db77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pragramming/elixer/basics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "basics"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,8 +199,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "896347d5181676b7",
+  "active": "91ad4fcc1d99db77",
   "lastOpenFiles": [
+    "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/4. elixir basics part 2.md",
+    "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/4. elixir basics.md",
+    "pragramming/elixer/Phoenix/Getting started.md",
+    "pragramming/bash/Bash pro shop.md",
+    "pragramming/c-sharp/basics/creating and running a dotnet app.md",
+    "pragramming/c-sharp/basics",
+    "pragramming/c-sharp",
     "pragramming/c/std libs/stdio/How to loop over the contents of a file.md",
     "pragramming/c/std libs/stdio/Get file size.md",
     "pragramming/c/books/modern C 3rd edition/level 2 - notes.md",
@@ -180,7 +216,6 @@
     "pragramming/c/books/modern C 3rd edition/Untitled",
     "pragramming/c/std libs/stdio",
     "pragramming/c/std libs",
-    "pragramming/elixer/Phoenix/Getting started.md",
     "pragramming/elixer/Phoenix",
     "pragramming/c/books/modern C 3rd edition/level 3 - notes.md",
     "pragramming/avr/c/Basic writing and reading.md",
@@ -189,12 +224,8 @@
     "pragramming/c",
     "pragramming/avr/c/packages, make file, avr lib and .clangd file.md",
     "Untitled.base",
-    "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/4. elixir basics part 2.md",
     "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/5. Anonymous Functions.md",
-    "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/4. elixir basics.md",
     "pragramming/elixer/programming elixir 1.6/part1 - conventional prgramming/1. pattern matching.md",
-    "pragramming/avr/c",
-    "pragramming/avr",
     "pictures/2025-12-23_08-27-58_2xDec.png",
     "Value types.md",
     "pragramming/python/library/socket.md",
@@ -203,7 +234,6 @@
     "pictures/2025-12-12_09-23-26_5xDec.png",
     "pragramming/bash/bash pro shop advanced.md",
     "The.md",
-    "pragramming/bash/Bash pro shop.md",
     "pictures/2025-12-10_11-27-55_3xDec.png",
     "pictures/2025-12-10_11-24-32_3xDec.png",
     "pictures/2025-12-10_11-19-26_3xDec.png",
