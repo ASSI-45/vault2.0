@@ -10,3 +10,6 @@ Then you'll get a table with the network cards, youll need to `MTH7612U` interfa
 ```bash
 sudo airmon-ng start <interface-name>
 ```
+after this command the **interface name** will change to `wlan1mon`
+
+Then you can run `iwconfig` to check if its up and running and in monitor mode.
