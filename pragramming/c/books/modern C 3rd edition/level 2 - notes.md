@@ -12,4 +12,7 @@ This chapter should allow you to write pro level c code.
 - all identifiers that have predefined meaning are reserved and cannot be used in file scope. -> all functions in the c library, identifiers starting with _str_, starting with _E_, ending with an _t
 
  - don't pollute the global space of identifiers
- - 
+
+## chapter 11
+-- -
+ 

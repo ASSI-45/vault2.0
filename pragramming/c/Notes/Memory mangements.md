@@ -1,4 +1,4 @@
-
+b 
 ## static memory allocation
 -- -
 Static memory is memory that can't shrink or change location.
